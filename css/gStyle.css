@@ -1,0 +1,360 @@
+#header{
+	margin: 0 auto;
+	width: 100%;
+	height: 50px;
+	background: grey;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+#H1header{
+	background: white;
+	width: 100%;
+	height: 20px;
+	float: right;
+	text-align: center;
+	font-size: 25px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	margin-top: 10px;
+	padding: 0px 0px 8px 0px;
+}
+
+#gHeader{
+	margin: 0 auto;
+	float: left;
+	background: white;
+	width: 100%;
+	height: 100px;
+}
+
+#gHea{
+	margin: 0 auto;
+	float: left;
+	background: #2589BD;
+	width: 100%;
+	height: 55px;
+}
+
+#gHeaLogo{
+	width: 10%;
+	float: left;
+	margin-left: 10%;
+}
+
+#gLogo{
+	width: 100%;
+	height: 45px;
+	padding: 5px 5px 5px 5px;
+}
+
+#gHeaNavigasi{
+	background: #2589BD;
+	margin-left: 50px;
+	width: 60%;
+	height: 45px;
+	padding: 5px 0px 5px 5px;
+}
+
+#gHeaNavigasi ul {
+	margin: 0;
+  	padding: 0;
+  	margin-top: 14px;
+}
+
+#gHeaNavigasi li {
+	display: inline;
+}
+
+#gHeaNavigasi li a {
+	text-decoration: none; 
+	color: white;
+	margin: 0px auto;
+	padding: 19px 19px;
+}
+
+#gHeaNavigasi li a:hover{
+	background: #38b3d094;
+}
+
+#gHeaSosMed{
+	width: 10%;
+	float: right;
+	margin-right: 10%;
+	background: green;
+}
+
+#gSubHea{
+	margin: 0 auto;
+	float: left;
+	width: 100%;
+	height: 50px;
+	background: grey;
+}
+
+#gSubHeaNav{
+	margin-left: 50px;
+}
+
+#gSubHeaNav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#gSubHeaNav li {
+  float: left;
+}
+
+#gSubHeaNav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  
+}
+
+#gSubHeaNav li a:hover{
+  border-bottom: 3px solid #00ceff;
+}
+
+#gHome {
+	margin: 0 auto;
+	width: 90%;
+	height: 450px;
+	float: left;
+	background: white;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	margin-left: 5%;
+}
+
+#gHighImage a{
+	margin: 0 auto;
+	float: left;
+	width: 800px;
+	height: 424px;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	margin-left: 13px;
+}
+
+#gHighImage a img{
+	margin: 0 auto;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+#gHighCont{
+	margin: 0 auto;
+	float: left;
+	width: 375px;
+	height: 424px;
+	background: grey;
+	margin-top: 13px;
+	margin-bottom: 13px;
+}
+
+#gHighCont a{
+	float: left;
+	text-decoration: none;
+	color: white;
+	border-bottom: 2px solid white;
+	width: 375px;
+	height: 106px;
+}
+
+#gHighCont a h2{
+	float: left;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 13%;
+}
+
+#gHighCont a:hover{
+	background: #00ceff;
+}
+
+#gSponsorship{
+	
+}
+
+#gSponsorship a img{
+	margin: 0 auto;
+	float: left;
+	width: 30%;
+	height: 100px;
+	margin-top: 15px;
+	margin-left: 35%;
+	margin-right: 35%;
+	opacity: 10;
+}
+
+#gSponsorship a img:hover{
+	opacity: 100;
+}
+
+#gMain {
+	margin: 0 auto;
+	width: 90%;
+	float: left;
+	margin-top: 25px;
+	margin-left: 5%;
+}
+
+#gContent {
+	margin: 0 auto;
+	margin-bottom: 50px;
+	width: 75%;
+	height: 1750px;
+	float: left;
+	background-color: rgba(255,255,255,0.7); 
+}
+
+#gJudulContent {
+	margin: 0 auto;
+	float: left;
+	width: 100%;
+	height: 75px;
+	border-bottom: 2px solid grey;
+}
+
+#gJudulContent h2{
+	font-size: 20px;
+	margin: 0 auto;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+
+#gContent h1{
+	font-size: 28px;
+	margin: 0 auto;
+	float: left;
+	margin-left: 5%;
+	margin-top: 35px;
+	color: white;
+}
+
+#gImgContent img {
+	margin-left: 5%;
+	margin-top: 15px;
+	width: 90%;
+	height: 500px;
+}
+
+#gContent h1 a{
+	text-decoration: none;
+	color: #2589BD;
+}
+
+#gJuBerita {
+	width: 95%;
+	height: 75px;
+	background: grey;
+	margin-top: 15px;
+}
+
+#gBerita {
+	width: 90%;
+	height: 170px;
+	margin-left: 5%;
+	margin-top: 20px;
+	border-top: 2px solid #d4d4d4;
+}
+
+#gBerita img {
+	float: left;
+	width: 300px;
+	height: 150px;
+	margin-left: 1%;
+	margin-top: 10px;
+}
+
+#gBerita span a {
+	text-decoration: none;
+	float: left;
+	margin-left: 5%;
+	margin-top: 15px;
+	color: #2589BD;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#gBerita a{
+	text-decoration: none;
+	float: left;
+	margin-left: 5%;
+	width: ;
+	height: 30px;
+	color: #000000;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#gBerita a:hover{
+	color: #2589BD;
+}
+
+#gBerita p{
+	text-decoration: none;
+	margin-left: 6%;
+	height: ;
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#gCreate a{
+	text-decoration: none;
+	margin: 0 auto;
+	margin-left: 4%;
+	color: #2589BD;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#gFooterContent {
+	width: 90%;
+	height: 170px;
+	margin-left: 5%;
+	margin-top: 20px;
+	border-top: 2px solid #d4d4d4;
+}
+
+#gSosialMedia {
+	float: left;
+	margin-left: 105%;
+	width: 28%;
+	height: 50px;
+	background: white;
+}
+
+#gPopuler {
+	float: left;
+	margin-top: 50px;
+	margin-left: 105%;
+	width: 28%;
+	height: 50px;
+	background: white;
+}
+
+#footer{
+	margin: 0 auto;
+	width: 100%;
+	height: 50px;
+	background: grey;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}

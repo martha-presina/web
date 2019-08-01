@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/travel.css">
+
+	<script src="js/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	$(window).scroll(function(){
+		var $height =$(window).scrollTop();
+		if($height > 100) {
+			$(".hiden").fadeIn(1);
+		}
+		else {
+			$(".hiden").fadeOut(1);
+		}
+		});
+	});
+	</script>
+	<title></title>
+</head>
+<body>
+	<div class="topbar home">
+		<img src="img/logoTravel.png" class="logo">
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div class="navbar">
+		<div class="hiden">
+			<img src="img/logoTravel2.png" class="logo2">
+		</div>
+		<ul>
+			<li><a href="Home.html">HOME</a></li>
+			<li><a href="sport1.html">SPORTS</a></li>
+			<li><a href="travel.html" class="active">TRAVEL</a></li>
+			<li><a href="gHome.html">GAMING</a></li>
+			<li><a href="Food.html">FOOD</a></li>
+			<li><a href="AboutUs.html">ABOUT US</a></li>
+		</ul>
+	</div>
+	<div class="clear"></div>
+	
+	<div class="banner">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+			  <div class="swiper-slide">
+			  	<a href="#one">
+				<div class="imgBox">
+					<img src="img/TRAVEL/slide/alam.jpg">
+				</div>
+				<div class="details">
+					<h3>Alam</h3>
+				</div>
+				</a>
+			  </div>
+
+			  <div class="swiper-slide">
+				<div class="imgBox">
+					<a href="#two"><img src="img/TRAVEL/slide/petualangan.jpg"></a>
+				</div>
+				<div class="details">
+					<a href="#two"><h3>Petualangan</h3></a>
+				</div>      	
+			  </div>
+			  <div class="swiper-slide">
+				<div class="imgBox">
+					<a href="#three"><img src="img/TRAVEL/slide/budaya.jpg"></a>
+				</div>
+				<div class="details">
+					<a href="#three"><h3>Budaya</h3></a>
+				</div>
+			  </div>
+			  <div class="swiper-slide">
+				<div class="imgBox">
+					<a href="#four"><img src="img/TRAVEL/slide/rekreasi.jpg"></a>
+				</div>
+				<div class="details">
+					<a href="#four"><h3>Rekreasi</h3></a>
+				</div>
+			  </div>
+			</div>
+
+			<div class="clear"></div>
+			<div class="swiper-pagination"></div>
+
+			<script type="text/javascript" src="js/swiper.min.js"></script>
+			<script>
+			var swiper = new Swiper('.swiper-container', {
+			  effect: 'coverflow',
+			  grabCursor: true,
+			  centeredSlides: true,
+			  slidesPerView: 'auto',
+			  coverflowEffect: {
+				rotate: 50,
+				stretch: 0,
+				depth: 100,
+				modifier: 1,
+				slideShadows : true,
+			  },
+			  pagination: {
+				el: '.swiper-pagination',
+			  },
+			});
+			</script>		
+		</div>
+	</div>	
+	<div class="clear"></div>
+	<div class="content1">
+	<section id="one">
+		<a href="alam.html"><h2>ALAM</h2></a>
+		<a href="kontenAlam.html">
+			<div class="square">
+				<div class="clear"></div>
+				<div class="image">
+					<span class="satu"></span>
+					<span class="satu"></span>
+					<span class="satu"></span>
+					<span class="satu"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Bawah Laut Alor, Primadona Bahari</h3>
+						<p>Ikan-ikan langka, terumbu karang, dan tumbuhan laut nan mempesona bisa ditemukan di Alor.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="rectangle">
+				<div class="image">
+					<span class="dua"></span>
+					<span class="dua"></span>
+					<span class="dua"></span>
+					<span class="dua"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Pantai Bingin, Surga Tersembunyi di Balik Tebing Pecatu Bali</h3>
+						<p>Saat sore hari tiba, pemandangan sunset dengan warna kemerahan yang sangat memesona dipandang mata. Aktivitas yang bisa kita lakukan di Pantai Bingin adalah berenang, berselancar, menyelam, atau sekedar duduk santai di café-café.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="square">
+				<div class="image">
+					<span class="tiga"></span>
+					<span class="tiga"></span>
+					<span class="tiga"></span>
+					<span class="tiga"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Ke Pulau Sangalaki, Bertemu Pari Manta dan Penyu Hijau</h3>
+						<p>Pulau Sangalaki berada di Kepulauan Derawan, Kabupaten Berau, Kalimantan Timur.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="square">
+				<div class="image">
+					<span class="empat"></span>
+					<span class="empat"></span>
+					<span class="empat"></span>
+					<span class="empat"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Pulau Pahawang, Wisata Bahari yang Tak Boleh Dilewatkan</h3>
+						<p>Pulau Pahawang terdiri dari Pulau Pahawang Besar dan Pulau Pahawang Kecil.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="square">
+				<div class="image">
+					<span class="lima"></span>
+					<span class="lima"></span>
+					<span class="lima"></span>
+					<span class="lima"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Bukit Matang Kaladan, Tak Kalah Indah dari Raja Ampat</h3>
+						<p>Setidaknya butuh waktu sekitar 30 menit untuk mencapai puncak dari Bukit Matang Kaladan.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="rectangle">
+				<div class="image">
+					<span class="enam"></span>
+					<span class="enam"></span>
+					<span class="enam"></span>
+					<span class="enam"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Berburu Senja Memikat di Pantai Lapasi Jailolo</h3>
+						<p>Perahu-perahu nelayan terlihat di kejauhan. Terdengar jelas deru ombak memecah di bibir pantai. Matahari perlahan pulang diikuti burung-burung yang terbang ke arah barat. Langit tampak kuning kemerahan. Pantai cantik di Halmahera Barat ini meraih popularitasnya berkat Festival Teluk Jailolo.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+	</section>
+	<div class="clear"></div>
+
+	<div class="btn">
+		<a href="alam.html">Selengkapnya..</a>
+	</div>
+
+	<hr>
+	<section id="two">
+		<a href="alam.html"><h2>Petualangan</h2></a>
+		<a href="kontenAlam.html">
+			<div class="rectangle">
+				<div class="clear"></div>
+				<div class="image">
+					<span class="tujuh"></span>
+					<span class="tujuh"></span>
+					<span class="tujuh"></span>
+					<span class="tujuh"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Destinasi Sport Tourism di Indonesia Berskala Internasional</h3>
+						<p>Di Indonesia ada beberapa daerah yang sangat gencar mempromosikan sport tourism dengan menggelar event berskala internasional, seperti Tour de Ijen, Ironman 70.3 Bintan, Tour de Singkarak, hingga Borobudur Marathon.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="square">
+				<div class="image">
+					<span class="delapan"></span>
+					<span class="delapan"></span>
+					<span class="delapan"></span>
+					<span class="delapan"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Kelok Sembilan dan Hal-Hal yang Bisa Dilakukan di Kelok Sembilan</h3>
+						<p>Tidak lengkap rasanya jika bepergian dari Sumatera Barat ke Riau tanpa melewati tempat ini.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="square">
+				<div class="image">
+					<span class="sembilan"></span>
+					<span class="sembilan"></span>
+					<span class="sembilan"></span>
+					<span class="sembilan"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Glamping, Solusi Camping Mewah Tanpa Ribet</h3>
+						<p>Istilah glamping sendiri sudah ada sejak beberapa tahun lalu.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="square">
+				<div class="image">
+					<span class="sepuluh"></span>
+					<span class="sepuluh"></span>
+					<span class="sepuluh"></span>
+					<span class="sepuluh"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Surga Penyelam Itu Ada di Teluk Cenderawasih</h3>
+						<p>Bosan dengan tempat menyelam yang itu-itu saja?</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="rectangle">
+				<div class="image">
+					<span class="sebelas"></span>
+					<span class="sebelas"></span>
+					<span class="sebelas"></span>
+					<span class="sebelas"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>3 Pulau Eksotis NTT, Menengok Budaya Megalitik Hingga Hewan Purba</h3>
+						<p>Ingin menyaksikan kehidupan komodo dari dekat? Menyusuri warisan budaya megalitik di ujung selatan Indonesia? Atau ingin menaiki bukit tinggi untuk melihat eloknya pemandangan laut? Semua ada 3 pulau eksotis di Nusa Tenggara Timur ini.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="square">
+				<div class="image">
+					<span class="duaBelas"></span>
+					<span class="duaBelas"></span>
+					<span class="duaBelas"></span>
+					<span class="duaBelas"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Camping di Tepi Danau Tamblingan yang Syahdu</h3>
+						<p>Tak hanya cantik dan damai, suasana pagi dan malam hari di tepi Danau Tamblingan sangat istimewa.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+	</section>
+	<div class="clear"></div>
+
+	<div class="btn">
+		<a href="alam.html">Selengkapnya..</a>
+	</div>
+
+	<hr>
+	<section id="three">
+		<a href="alam.html"><h2>Budaya</h2></a>
+		<a href="kontenAlam.html">
+			<div class="square">
+				<div class="clear"></div>
+				<div class="image">
+					<span class="tigaBelas"></span>
+					<span class="tigaBelas"></span>
+					<span class="tigaBelas"></span>
+					<span class="tigaBelas"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Teater Dulmuluk, Tradisi Peninggalan Wan Bakar Dari Abad 18</h3>
+						<p>Teater tradisional warga Sumatera Selatan, dialognya menggunakan pantun atau syair.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="square">
+				<div class="image">
+					<span class="empatBelas"></span>
+					<span class="empatBelas"></span>
+					<span class="empatBelas"></span>
+					<span class="empatBelas"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Menenangkan diri di Taman Wisata Tirta Gangga</h3>
+						<p>Taman ini dibangun di atas lahan seluas 1,2 hektare, memanjang dari timur ke barat.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="square">
+				<div class="image">
+					<span class="limaBelas"></span>
+					<span class="limaBelas"></span>
+					<span class="limaBelas"></span>
+					<span class="limaBelas"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>5 Fakta Menarik Keraton Yogyakarta</h3>
+						<p>Salah satu fakta menarik dari Keraton Yogyakarta tidak terkana banjir. Mengapa demikian?</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="square">
+				<div class="image">
+					<span class="enamBelas"></span>
+					<span class="enamBelas"></span>
+					<span class="enamBelas"></span>
+					<span class="enamBelas"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Perahu Naga Yogyakarta, Paduan Tionghoa dan Jawa di Laguna Depok</h3>
+						<p>Pantai selatan Yogyakarta yang biasa kita kenal dengan aura mistis dan sunset cantiknya</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="rectangle">
+				<div class="image">
+					<span class="tujuhBelas"></span>
+					<span class="tujuhBelas"></span>
+					<span class="tujuhBelas"></span>
+					<span class="tujuhBelas"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Barongsai Goyang Dangdut Diiringi Gamelan di Pontianak</h3>
+						<p>Kesenian yang sejatinya berasal dari Tiongkok ini tampil istimewa di kejuaraan internasional di Pontianak, jadi ajang pamer budaya Indonesia. Dari iringan gamelan, pemusik dengan surjan dan blangkon jawa, hingga kostum Dayak dan ornamen burung enggang.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="rectangle">
+				<div class="image">
+					<span class="delapanBelas"></span>
+					<span class="delapanBelas"></span>
+					<span class="delapanBelas"></span>
+					<span class="delapanBelas"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Tradisi Bakar Tongkang, Ritual Doa dan Syukur Tionghoa Bagansiapiapi</h3>
+						<p>Ritual kuno untuk mengenang para migran Tiongkok pertama yang meninggalkan tanah air mereka dan menetap di Riau. Bakar tongkang atau kapal merupakan simbol berakhirnya pelayaran mereka. Replika kapal seberat 400 kg, didoakan dan diberkati di Kuil Eng Hok King, lalu dibakar.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+	</section>
+	<div class="clear"></div>
+
+	<div class="btn">
+		<a href="alam.html">Selengkapnya..</a>
+	</div>
+
+	<hr>
+	<section id="four">
+		<a href="alam.html"><h2>Rekreasi</h2></a>
+		<a href="kontenAlam.html">
+			<div class="square">
+				<div class="clear"></div>
+				<div class="image">
+					<span class="sembilanBelas"></span>
+					<span class="sembilanBelas"></span>
+					<span class="sembilanBelas"></span>
+					<span class="sembilanBelas"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Terhanyut Nikmatnya Warung Apung Sungai Musi</h3>
+						<p>Yuk, nikmati sensasi makan di kapal yang bergoyang-goyang mengikuti arus,</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="rectangle">
+				<div class="image">
+					<span class="duaPuluh"></span>
+					<span class="duaPuluh"></span>
+					<span class="duaPuluh"></span>
+					<span class="duaPuluh"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Berburu Oleh-oleh Khas Surabaya, Ada yang Pedas dan Manis</h3>
+						<p>Surabaya merupakan kota terbesar di Jawa Timur. Tak hanya daerah wisatanya yang menarik dikunjungi, oleh-oleh dari wilayah ujung Jawa Timur ini juga sangat menarik untuk dibawa pulang, mulai dari sambal, camilan berbahan almond hingga bebek “pepes”.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="square">
+				<div class="image">
+					<span class="duaSatu"></span>
+					<span class="duaSatu"></span>
+					<span class="duaSatu"></span>
+					<span class="duaSatu"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Harus Tahu! Ini 6 Istana Kepresidenan Republik Indonesia</h3>
+						<p>Bukan hanya sebagai tempat tinggal Presiden,</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="square">
+				<div class="image">
+					<span class="duaDua"></span>
+					<span class="duaDua"></span>
+					<span class="duaDua"></span>
+					<span class="duaDua"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Asia-Afrika, Jalan Bersejarah Yang Instagramable</h3>
+						<p>Jalan Asia-Afrika dulu merupakan jalan yang dilalui para pemimpin dan delegasi dari dua benua</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="rectangle">
+				<div class="image">
+					<span class="duaTiga"></span>
+					<span class="duaTiga"></span>
+					<span class="duaTiga"></span>
+					<span class="duaTiga"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Taman Pasuk Kameluh, Piknik Keluarga di Jantung Palangkaraya</h3>
+						<p>Suasananya asri, berdekatan dengan Jembatan Kahayan serta Tugu Soekarno, menjadikan Taman Pasuk Kameloh tempat melepas penat bersama keluarga yang ideal di Palangkaraya.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+		<a href="kontenAlam.html">
+			<div class="square">
+				<div class="image">
+					<span class="duaEmpat"></span>
+					<span class="duaEmpat"></span>
+					<span class="duaEmpat"></span>
+					<span class="duaEmpat"></span>
+				</div>
+				<div class="content">
+					<div>
+						<h3>Lokasi Foto Berlatar Desa Pelangi di Kampung Bugis</h3>
+						<p>Kampung Bugis merupakan satu dari 10 kampung warna-warni yang ada di Indonesa.</p>
+					</div>				
+				</div>
+			</div>
+		</a>
+	</section>
+
+	<div class="clear"></div>
+
+	<div class="btn">
+		<a href="alam.html">Selengkapnya..</a>
+	</div>
+
+	</div>
+	<div class="clear"></div>
+
+	<div class="bot">
+	
+	<div class="Tfooter">
+	<div class="bot-logo">
+	<img src="img/LogoTravel2.png" class="logoBot">
+	</div>
+	<div class="bot-sosmed">
+	<div class="sosmed">
+		<img src="img/sosmed/facebook.png" class="gb-sosmed">
+		<span id="tooltip1">www.facebook.com/Kosan</span>
+	</div>
+	<div class="sosmed">
+		<img src="img/sosmed/twitter.png" class="gb-sosmed">
+		<span id="tooltip2">www.twitter.com/Kosan</span>
+	</div>
+	<div class="sosmed">
+		<img src="img/sosmed/instagram.png" class="gb-sosmed">
+		<span id="tooltip3">www.instagram.com/Kosan</span>
+	</div>
+	<div class="sosmed">
+		<img src="img/sosmed/wa.png" class="gb-sosmed">
+		<span id="tooltip4">www.whatsapp.com/Kosan</span>
+	</div>
+	</div>
+	</div>
+	<script type="text/javascript">
+		var spanText1 = document.getElementById('tooltip1');
+		var spanText2 = document.getElementById('tooltip2');
+		var spanText3 = document.getElementById('tooltip3');
+		var spanText4 = document.getElementById('tooltip4');
+		window.onmousemove = function(e) {
+			var	x = e.clientX,
+			    y = e.clientY;
+			spanText1.style.top = (y + 20) + 'px';			
+			spanText1.style.left = (x + 20) + 'px';
+			spanText2.style.top = (y + 20) + 'px';			
+			spanText2.style.left = (x + 20) + 'px';
+			spanText3.style.top = (y + 20) + 'px';			
+			spanText3.style.left = (x + 20) + 'px';
+			spanText4.style.top = (y + 20) + 'px';			
+			spanText4.style.left = (x + 20) + 'px';
+		}
+	</script>	
+	<div class="clear"></div>
+	
+	<div class="Lfooter">
+	<p class="title bot">Latest News</p>
+	<div class="subkonten Bot">
+	<img src="img/TRAVEL/alam/6.jpg">
+	<p class="judul Bot">Berburu Senja Memikat di Pantai Lapasi Jailolo</br>
+	<span class="dtl-judul">Senin, 29 Juni 2019<span>
+	</p></div>
+	<div class="subkonten Bot">
+	<img src="img/TRAVEL/petualangan/1.jpg">
+	<p class="judul Bot">Destinasi Sport Tourism di Indonesia Berskala Internasional</br>
+	<span class="dtl-judul">Senin, 29 Juni 2019<span>
+	</p></div>
+	<div class="subkonten Bot">
+	<img src="img/TRAVEL/budaya/1.jpg">
+	<p class="judul Bot">Teater Dulmuluk, Tradisi Peninggalan Wan Bakar Dari Abad 18</br>
+	<span class="dtl-judul">Senin, 29 Juni 2019<span>
+	</p></div>
+	</div>
+	
+	<div class="Rfooter">
+	<p class="title bot">Contact Us</p>
+	<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.2831031973296!2d110.40663341432608!3d-7.759770579104361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f1714b0c4544586!2sUniversitas+Amikom+Yogyakarta!5e0!3m2!1sid!2sid!4v1561561823313!5m2!1sid!2sid" width="500" height="250" frameborder="0" style="border:0" allowfullscreen>
+	</iframe>
+	<p class="footAlamat">Universitas Amikom Yogyakarta</p>
+	<p>Jl. Ring Road Utara, Ngringin, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281.</p>
+	<p class="footAlamat">Basecamp Kosan Group</p>
+	<p>Jalan Lely I no.141 Condong Catur, Kecamatan Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55285.</p>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div class="footer">
+	Designed by : 17-IF-05 Kelompok 5 @2019 
+	</div>
+	</div>
+	<div class="clear"></div>	
+</body>
+</html>

@@ -1,0 +1,366 @@
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Kosan Journal</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$(window).scroll(function(){
+		var $height =$(window).scrollTop();
+		if($height > 100) {
+			$(".hiden").fadeIn(1);
+		}
+		else {
+			$(".hiden").fadeOut(1);
+		}
+		});
+		
+		$(window).ready(function(){
+		$(".round.1 img").addClass("proActive");
+		$(".wrapIn.1").fadeIn(1000);
+		$(".wrapIn.2").hide();
+		$(".wrapIn.3").hide();
+		$(".wrapIn.4").hide();
+		$(".wrapIn.5").hide();
+		$(".wrapIn.6").hide();
+		});
+		
+		<!-- Show 1 hide the other -->
+		$(".round.1").click(function(){
+		$(".round.1 img").addClass("proActive");
+		$(".round.2 img").removeClass("proActive");
+		$(".round.3 img").removeClass("proActive");
+		$(".round.4 img").removeClass("proActive");
+		$(".round.5 img").removeClass("proActive");
+		$(".round.6 img").removeClass("proActive");
+		$(".wrapIn.1").fadeIn(1000);
+		$(".wrapIn.2").hide();
+		$(".wrapIn.3").hide();
+		$(".wrapIn.4").hide();
+		$(".wrapIn.5").hide();
+		$(".wrapIn.6").hide();
+		});
+		
+		<!-- Show 2 hide the other -->
+		$(".round.2").click(function(){
+		$(".round.2 img").addClass("proActive");
+		$(".round.1 img").removeClass("proActive");
+		$(".round.3 img").removeClass("proActive");
+		$(".round.4 img").removeClass("proActive");
+		$(".round.5 img").removeClass("proActive");
+		$(".round.6 img").removeClass("proActive");
+		$(".wrapIn.1").hide();
+		$(".wrapIn.2").fadeIn(1000);
+		$(".wrapIn.3").hide();
+		$(".wrapIn.4").hide();
+		$(".wrapIn.5").hide();
+		$(".wrapIn.6").hide();
+		});
+		
+		<!-- Show 3 hide the other -->
+		$(".round.3").click(function(){
+		$(".round.3 img").addClass("proActive");
+		$(".round.1 img").removeClass("proActive");
+		$(".round.2 img").removeClass("proActive");
+		$(".round.4 img").removeClass("proActive");
+		$(".round.5 img").removeClass("proActive");
+		$(".round.6 img").removeClass("proActive");
+		$(".wrapIn.1").hide();
+		$(".wrapIn.2").hide();
+		$(".wrapIn.3").fadeIn(1000);
+		$(".wrapIn.4").hide();
+		$(".wrapIn.5").hide();
+		$(".wrapIn.6").hide();
+		});
+		
+		<!-- Show 4 hide the other -->
+		$(".round.4").click(function(){
+		$(".round.4 img").addClass("proActive");
+		$(".round.1 img").removeClass("proActive");
+		$(".round.2 img").removeClass("proActive");
+		$(".round.3 img").removeClass("proActive");
+		$(".round.5 img").removeClass("proActive");
+		$(".round.6 img").removeClass("proActive");
+		$(".wrapIn.1").hide();
+		$(".wrapIn.2").hide();
+		$(".wrapIn.3").hide();
+		$(".wrapIn.4").fadeIn(1000);
+		$(".wrapIn.5").hide();
+		$(".wrapIn.6").hide();
+		});
+		
+		<!-- Show 5 hide the other -->
+		$(".round.5").click(function(){
+		$(".round.5 img").addClass("proActive");
+		$(".round.1 img").removeClass("proActive");
+		$(".round.2 img").removeClass("proActive");
+		$(".round.3 img").removeClass("proActive");
+		$(".round.4 img").removeClass("proActive");
+		$(".round.6 img").removeClass("proActive");
+		$(".wrapIn.1").hide();
+		$(".wrapIn.2").hide();
+		$(".wrapIn.3").hide();
+		$(".wrapIn.4").hide();
+		$(".wrapIn.5").fadeIn(1000);
+		$(".wrapIn.6").hide();
+		});
+		
+		<!-- Show 6 hide the other -->
+		$(".round.6").click(function(){
+		$(".round.6 img").addClass("proActive");
+		$(".round.1 img").removeClass("proActive");
+		$(".round.2 img").removeClass("proActive");
+		$(".round.3 img").removeClass("proActive");
+		$(".round.4 img").removeClass("proActive");
+		$(".round.5 img").removeClass("proActive");
+		$(".wrapIn.1").hide();
+		$(".wrapIn.2").hide();
+		$(".wrapIn.3").hide();
+		$(".wrapIn.4").hide();
+		$(".wrapIn.5").hide();
+		$(".wrapIn.6").fadeIn(1000);
+		});
+	});
+	</script>
+		
+</head>
+
+<body>
+
+	<div class="topbar home">
+	<img src="img/Logo.png" class="logo">
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div class="navbar">
+	<div class="hiden">
+	<img src="img/Logo2.png" class="logo2">
+	</div>
+	<ul>
+		<li><a href="Home.html">HOME</a></li>
+		<li><a href="sport1.html">SPORTS</a></li>
+		<li><a href="travel.html">TRAVEL</a></li>
+		<li><a href="gHome.html">GAMING</a></li>
+		<li><a href="Food.html">FOOD</a></li>
+		<li><a href="AboutUs.html" class="active">ABOUT US</a></li>
+	</ul>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div class="headAU">
+	<div class="swiper-container">
+	<div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="img/sliderAU/045.jpg"></div>
+      <div class="swiper-slide"><img src="img/sliderAU/049.jpg"></div>
+      <div class="swiper-slide"><img src="img/sliderAU/051.jpg"></div>
+      <div class="swiper-slide"><img src="img/sliderAU/046.jpg"></div>
+      <div class="swiper-slide"><img src="img/sliderAU/048.jpg"></div>
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+	</div>
+	
+	<!-- Swiper JS -->
+  <script src="js/jquerySlide.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div class="konten">
+	<div class="wrap">
+	<div class="wrapRound">
+	<div class="round 1">
+	<img src="img/proLogo.png">
+	</div>
+	<div class="round 2">
+	<img src="img/ata.png">
+	</div>
+	<div class="round 3">
+	<img src="img/bill.png">
+	</div>
+	<div class="round 4">
+	<img src="img/valo.png">
+	</div>
+	<div class="round 5">
+	<img src="img/ipan.png">
+	</div>
+	<div class="round 6">
+	<img src="img/yose.png">
+	</div>
+	</div>
+	<div class="wrapIn 1">
+		<div class="wrapIn L">
+		<p class="title">Welcome to our site!</p>
+		<p class="dtl-content AU">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+		Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+		<div class="AU-sosmed">
+		<div class="sosmed au"><img src="img/sosmed/facebook.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/twitter.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/instagram.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/wa.png" class="gb-sosmed au"></div>
+		</div>
+		</div>
+
+		<div class="wrapIn R">
+		<img src="img/proLogo.png">
+		</div>
+	</div>
+	
+	<div class="wrapIn 2">
+		<div class="wrapIn L">
+		<p class="title">Hello i'm Martha Presina...</p>
+		<p class="dtl-content AU">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+		Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+		<div class="AU-sosmed">
+		<div class="sosmed au"><img src="img/sosmed/facebook.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/twitter.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/instagram.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/wa.png" class="gb-sosmed au"></div>
+		</div>
+		</div>
+		<div class="wrapIn R">
+		<img src="img/ata.png">
+		</div>
+	</div>
+	<div class="wrapIn 3">
+		<div class="wrapIn L">
+		<p class="title">Hello i'm Bill Gani...</p>
+		<p class="dtl-content AU">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+		Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+		<div class="AU-sosmed">
+		<div class="sosmed au"><img src="img/sosmed/facebook.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/twitter.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/instagram.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/wa.png" class="gb-sosmed au"></div>
+		</div>
+		</div>
+		<div class="wrapIn R">
+		<img src="img/bill.png">
+		</div>
+	</div>
+	<div class="wrapIn 4">
+		<div class="wrapIn L">
+		<p class="title">Hello i'm Valoryan Junsi ...</p>
+		<p class="dtl-content AU">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+		Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+		<div class="AU-sosmed">
+		<div class="sosmed au"><img src="img/sosmed/facebook.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/twitter.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/instagram.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/wa.png" class="gb-sosmed au"></div>
+		</div>
+		</div>
+		<div class="wrapIn R">
+		<img src="img/valo.png">
+		</div>
+	</div>
+	<div class="wrapIn 5">
+		<div class="wrapIn L">
+		<p class="title">Hello i'm Yan Gurin Ivanda...</p>
+		<p class="dtl-content AU">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+		Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+		<div class="AU-sosmed">
+		<div class="sosmed au"><img src="img/sosmed/facebook.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/twitter.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/instagram.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/wa.png" class="gb-sosmed au"></div>
+		</div>
+		</div>
+		<div class="wrapIn R">
+		<img src="img/ipan.png">
+		</div>
+	</div>
+	<div class="wrapIn 6">
+		<div class="wrapIn L">
+		<p class="title">Hello i'm Youse Nur...</p>
+		<p class="dtl-content AU">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+		Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+		<div class="AU-sosmed">
+		<div class="sosmed au"><img src="img/sosmed/facebook.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/twitter.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/instagram.png" class="gb-sosmed au"></div>
+		<div class="sosmed au"><img src="img/sosmed/wa.png" class="gb-sosmed au"></div>
+		</div>
+		</div>
+		<div class="wrapIn R">
+		<img src="img/yose.png">
+		</div>
+	</div>
+	</div>
+	
+	</div>
+	
+	<div class="clear"></div>
+		
+	<div class="Tfooter">
+	<div class="bot-logo">
+	<img src="img/Logo2.png" class="logoBot">
+	</div>
+	<div class="bot-sosmed">
+	<div class="sosmed"><img src="img/sosmed/facebook.png" class="gb-sosmed"></div>
+	<div class="sosmed"><img src="img/sosmed/twitter.png" class="gb-sosmed"></div>
+	<div class="sosmed"><img src="img/sosmed/instagram.png" class="gb-sosmed"></div>
+	<div class="sosmed"><img src="img/sosmed/wa.png" class="gb-sosmed"></div>
+	</div>
+	</div>
+		
+	<div class="clear"></div>
+	
+	<div class="bot">
+
+	
+	<div class="Lfooter">
+	<p class="title bot">Latest News</p>
+	<div class="subkonten Bot">
+	<a href="" class="judul Bot"><img src="img/barong.jpg">
+	<p>Barongan Blora Meriahkan Java Ethnic Artnival di Yogyakarta </br></a>
+	<span class="dtl-judul">Senin, 20 Maret 2019<span>
+	</p></div>
+	<div class="subkonten Bot">
+	<a href="" class="judul Bot"><img src="img/barong.jpg">
+	<p>Barongan Blora Meriahkan Java Ethnic Artnival di Yogyakarta </br></a>
+	<span class="dtl-judul">Senin, 20 Maret 2019<span>
+	</p></div>
+	<div class="subkonten Bot">
+	<a href="" class="judul Bot"><img src="img/barong.jpg">
+	<p>Barongan Blora Meriahkan Java Ethnic Artnival di Yogyakarta </br></a>
+	<span class="dtl-judul">Senin, 20 Maret 2019<span>
+	</p></div>
+	</div>
+	
+	<div class="Rfooter">
+	<p class="title bot">Contact Us</p>
+	<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.2831031973296!2d110.40663341432608!3d-7.759770579104361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f1714b0c4544586!2sUniversitas+Amikom+Yogyakarta!5e0!3m2!1sid!2sid!4v1561561823313!5m2!1sid!2sid" width="500" height="250" frameborder="0" style="border:0" allowfullscreen>
+	</iframe>
+	<p class="footAlamat">Universitas Amikom Yogyakarta</p>
+	<p class="footDtlAlamat">Jl. Ring Road Utara, Ngringin, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281.</p>
+	<p class="footAlamat">Basecamp Kosan Group</p>
+	<p class="footDtlAlamat">Jalan Lely I no.141 Condong Catur, Kecamatan Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55285.</p>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div class="footer">
+	Designed by : 17-IF-05 Kelompok 5 @2019 
+	</div>
+	</div>
+	<div class="clear"></div>
+	
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KosanFood</title>
+	<link rel="stylesheet" type="text/css" href="css/Food.css">
+	<script src="js/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	$(window).scroll(function(){
+		var $height =$(window).scrollTop();
+		if($height > 100) {
+			$(".hiden").fadeIn(1);
+		}
+		else {
+			$(".hiden").fadeOut(1);
+		}
+		});
+	});
+	</script>
+</head>
+<body>
+
+	<div class="topbar home">
+	<img src="img/LogoFood.png" class="logo">
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div class="navbar">
+	<div class="hiden">
+	<img src="img/LogoFood2.png" class="logo2">
+	</div>
+	<ul>
+		<li><a href="Home.html">HOME</a></li>
+		<li><a href="sport1.html">SPORTS</a></li>
+		<li><a href="travel.html">TRAVEL</a></li>
+		<li><a href="gHome.html">GAMING</a></li>
+		<li><a href="Food.html" class="active">FOOD</a></li>
+		<li><a href="AboutUs.html">ABOUT US</a></li>
+	</ul>
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="wrapper">
+		<div class="slide">
+		  <ul>
+		    <li data-bg="img/food/Slide/1.jpg"></li>
+		    <li data-bg="img/food/Slide/2.jpg"></li>
+		    <li data-bg="img/food/Slide/3.jpg"></li>
+		    <li data-bg="img/food/Slide/4.jpg"></li>
+		    <li data-bg="img/food/Slide/5.jpg"></li>
+		  </ul>
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.slide.js"></script>
+	<script type="text/javascript">
+
+		$(function() {
+		  $('.slide').slide({
+
+		    // auto play
+		    isAutoSlide: true, 
+
+		    // pause on hover
+		    isHoverStop: true,
+
+		    // pause when window loses focus
+		    isBlurStop: true,
+
+		    // shows pagination bullets
+		    isShowDots: true,
+
+		    // shows navigation arrows
+		    isShowArrow: true,
+
+		    // shows navigation arrows on hover
+		    isHoverShowArrow: true,
+
+		    // load all images on load
+		    isLoadAllImgs: false,
+
+		    // sliding speed
+		    slideSpeed: 2500,
+
+		    // switching speed
+		    switchSpeed: 500,
+
+		    // click, mouseover or mouseenter
+		    dotsEvent: 'click',
+
+		    // default CSS classes
+		    dotsClass: 'dots',  
+		    dotActiveClass: 'active', 
+		    arrowClass: 'arrow',
+		    arrowLeftClass: 'arrow-left', 
+		    arrowRightClass: 'arrow-right'
+
+		  });
+		});
+
+	</script>
+
+		
+	
+
+	<div class="mainHome">
+		<div class="motivTeks">
+			<em>"One of the very nicest things about life<br>is the way we must regularly stop whatever it is we are doing and devote our attention to eating."</em>
+		</div>
+		<div class="bck">
+			<div class="modMakanan">
+			<a href="Modern.html"><div class="Menu">
+				<img src="img/food/modern.jpg">
+				<div class="overlay">Modern Food</div>
+			</div></a>
+			<a href="TraditionalFood.html"><div class="Menu">
+				<img src="img/food/tradisional.jpg">
+				<div class="overlay">Traditional Food</div>
+			</div></a>
+			<a href="TraditionalDrink.html"><div class="Menu">
+				<img src="img/food/minum.jpg">
+				<div class="overlay">Traditional Drink</div>
+			</div></a>
+		</div>
+			<div class="clear"></div>
+
+			<div class="jdlBaru">
+				<p>The Latest</p>
+			</div>
+
+			<div class="clear"></div>
+
+			<div class="modMakanan">
+			<div class="lates">
+				<img src="img/food/pasta.jpg">
+			</div>
+			<div class="lates">
+				<img src="img/food/soto.jpg">
+			</div>
+			<div class="lates">
+				<img src="img/food/wafel.jpg">
+			</div>
+			<div class="lates">
+				<img src="img/food/donat.jpg">
+			</div>
+		</div>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="bot">
+	
+	<div class="Tfooter">
+	<div class="bot-logo">
+	<img src="img/LogoFood2.png" class="logoBot">
+	</div>
+	<div class="bot-sosmed">
+	<div class="sosmed"><img src="img/sosmed/facebook.png" class="gb-sosmed"></div>
+	<div class="sosmed"><img src="img/sosmed/twitter.png" class="gb-sosmed"></div>
+	<div class="sosmed"><img src="img/sosmed/instagram.png" class="gb-sosmed"></div>
+	<div class="sosmed"><img src="img/sosmed/wa.png" class="gb-sosmed"></div>
+	</div>
+	</div>
+		
+	<div class="clear"></div>
+	
+	<div class="Lfooter">
+	<p class="title bot">Latest News</p>
+	<div class="subkonten Bot">
+	<img src="img/barong.jpg">
+	<p class="judul Bot">Barongan Blora Meriahkan Java Ethnic Artnival di Yogyakarta </br>
+	<span class="dtl-judul">Senin, 20 Maret 2019<span>
+	</p></div>
+	<div class="subkonten Bot">
+	<img src="img/barong.jpg">
+	<p class="judul Bot">Barongan Blora Meriahkan Java Ethnic Artnival di Yogyakarta </br>
+	<span class="dtl-judul">Senin, 20 Maret 2019<span>
+	</p></div>
+	<div class="subkonten Bot">
+	<img src="img/barong.jpg">
+	<p class="judul Bot">Barongan Blora Meriahkan Java Ethnic Artnival di Yogyakarta </br>
+	<span class="dtl-judul">Senin, 20 Maret 2019<span>
+	</p></div>
+	</div>
+	
+	<div class="Rfooter">
+	<p class="title bot">Contact Us</p>
+	<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.2831031973296!2d110.40663341432608!3d-7.759770579104361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f1714b0c4544586!2sUniversitas+Amikom+Yogyakarta!5e0!3m2!1sid!2sid!4v1561561823313!5m2!1sid!2sid" width="500" height="250" frameborder="0" style="border:0" allowfullscreen>
+	</iframe>
+	<p class="footAlamat">Universitas Amikom Yogyakarta</p>
+	<p>Jl. Ring Road Utara, Ngringin, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281.</p>
+	<p class="footAlamat">Basecamp Kosan Group</p>
+	<p>Jalan Lely I no.141 Condong Catur, Kecamatan Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55285.</p>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div class="footer">
+	Designed by : 17-IF-05 Kelompok 5 @2019 
+	</div>
+	</div>
+	<div class="clear"></div>
+</body>
+</html>

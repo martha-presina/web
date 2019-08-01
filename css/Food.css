@@ -1,0 +1,440 @@
+body{
+  font-family: arial;
+  margin: 0;
+}
+
+.clear{
+  clear: both;
+}
+
+.topbar {
+  margin: 0;
+  height: 100px;
+  width:100%;
+}
+
+.logo {
+  margin: 25px 25px 0 25px;
+  height: 50px;
+}
+
+.topbar.home {
+  background: url(../img/topbar.jpg) no-repeat;
+  background-size: cover;
+}
+
+
+.navbar {
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  float: left;
+  height: 50px;
+  background-color: #2589BD;
+  vertical-align: middle;
+  width:100%;
+}
+
+.hiden {
+  float: left;
+  width: 20%;
+  display: none;
+}
+
+.logo2 {
+  display: block;
+  margin: 10px auto;
+  height: 30px;
+}
+
+.navbar ul {
+  margin: 0 auto;
+  padding-left: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  height: 25px;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 25px 10px 25px;
+  font-size: 15px;
+}
+
+.navbar li a:hover {
+  background-color: #1C5D99;
+  color: #FFFFFF;
+}
+
+.active {
+  background-color: #187795;
+  color: #FFFFFF;
+}
+
+
+/*SLIDE*/
+.slide {
+  position: relative;
+  margin: 50px auto;
+  width: 90%;
+  height: 450px;
+  background: #ccc;
+}
+
+.slide ul li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+
+.slide .dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  width: 100%;
+  z-index: 3;
+  text-align: center;
+}
+
+.slide .dots li {
+  display: inline-block;
+  margin: 0 10px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: background .5s, opacity .5s;
+  list-style: none;
+}
+
+.slide .dots li.active {
+  background: #fff;
+  opacity: 1;
+}
+
+.slide .arrow {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: background .5s, opacity .5s;
+}
+
+.slide .arrow .arrow-left,
+.slide .arrow .arrow-right {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: background .5s, opacity .5s;
+}
+
+.slide .arrow  .arrow-left:hover,
+.slide .arrow  .arrow-right:hover {
+  opacity: 1;
+}
+
+.slide .arrow .arrow-left {
+  left: 20px;
+  background: url("img/food/arrow-left.png");
+}
+
+.slide .arrow .arrow-right {
+  right: 20px;
+  background: url("img/food/arrow-right.png");
+}
+
+
+.main{
+  width: 1366px;
+}  
+
+.motivTeks{
+  font-family: cambria;
+  color: gray;
+  font-size: 15pt;
+  text-align-last: center;
+  margin-top: 50px;
+}
+
+.mainHome{
+  width: 100%;
+  overflow: hidden;
+}
+
+.bck{
+  width: 80%;
+  height: 600px;
+  background-color: #f0f5f5;
+  margin-top: 70px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid #d1e0e0;
+  border-bottom: none;
+}
+
+.modMakanan {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 50px;
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu{
+  position: relative;
+  width: 277px;
+  height: 160px;
+  float: left;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  margin-top: 30px;
+}
+
+.overlay{ 
+  position: absolute;
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1; 
+  height: 20px;
+  width: 237px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.Menu:hover .overlay {
+  opacity: 1;
+}
+
+.Menu img{
+  width: 100%;
+}
+
+.jdlBaru{
+  width: 20%;
+  height: 40px;
+  background-color: #2589BD;
+  color: white;
+  text-align: center;
+  font-size: 22pt;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.lates{
+  width: 210px;
+  height: 150px;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2% ;
+  transition: 0.5s;
+}
+
+.lates img{
+  width: 100%;
+  height: 150px;
+}
+
+.lates:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.lates img{
+  width: 100%;
+}
+
+/*footer*/
+.title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 5px 15px;
+  background-color: #1C5D99;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.title.bot {
+  color : #474443;
+  padding: 5px 0;
+  background-color: none;
+  border-bottom: 2px solid #1C5D99;
+}
+
+.judul {
+  margin: 0 auto;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.judul.Bot {
+  font-size: 13px;
+  color: #474443
+}
+
+.dtl-judul {
+  color: red;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+.bot {
+  background-color: #2589BD;
+}
+
+.subkonten {
+  float: left;
+  width: 100%;
+}
+
+.subkonten.Bot {
+  height: 65px;
+  margin-bottom: 10px;
+}
+
+.Lfooter .subkonten.Bot img {
+  width: 55px;
+  height: 55px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  float: left;
+}
+
+.Tfooter {
+  float: left;
+  width: 90%;
+  height: 70px;
+  padding: 0 5%;
+  text-align: justify;
+  background-color: #1C5D99;
+}
+
+.bot-logo {
+  float: left;
+  margin 0;
+  width: 30%;
+  height: 70px;
+  background-color: #2589BD;
+}
+
+.bot-sosmed {
+  float: left;
+  margin: 0;
+  padding-left: 20%;
+  width: 40%;
+  height: 70px;
+}
+
+.sosmed {
+  transition: 0.3s;
+  float: left;
+  margin: 10px 10px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.gb-sosmed {
+  transition: 0.3s;
+  margin: 15px auto;
+  width: 30px;
+}
+
+.sosmed:hover .gb-sosmed{
+  transition: 0.3s;
+  margin: 15px auto;
+  width: 40px;
+}
+
+.sosmed:hover{
+  transition: 0.3s;
+  margin: 5px 10px;
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+}
+
+.logoBot {
+  display: block;
+  margin: 15px auto;
+  height: 40px;
+}
+
+.Lfooter {
+  float: left;
+  width: 23%;
+  padding: 1% 2% 1% 5%;
+  text-align: justify;
+}
+
+.Rfooter {
+  float: left;
+  width: 60%;
+  padding: 1% 5% 1% 5%;
+  text-align: justify;
+  color:  #ffffff;
+  font-size: 13px;
+}
+
+.map {
+  float: left;
+  margin-right: 30px;
+}
+
+.footAlamat {
+  float left;
+  color:  #474443;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.footer{
+  margin: 0 auto;
+  font-size: 15px;
+  height: 35px;
+  width: 100%;
+  padding-top: 15px;
+  text-align: center;
+  border-bottom: 5px solid #1C5D99;
+  float: left;
+}
+
+.profileKonten {
+  margin: 0 auto;
+  float: left;
+  height: 400px;
+  width: 100%;
+}
